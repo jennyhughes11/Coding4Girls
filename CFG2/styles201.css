@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|Sigmar+One');
+
+body {
+  width: 100%;
+  height: 100%;
+}
+img{
+  height:100%;
+  width:100%;
+  padding-top: 2%;
+  padding-bottom: 0%;
+}
+
+h2 {
+ text-decoration-color:white;
+ font-family: monospace;
+ font-size: 30px;
+ text-align: center;
+ }
+
+footer {
+  width: 100%;
+  height: 8.5%;
+  display: block;
+  position: absolute;
+  background-color: #DCDCDC; /* Pastel Grey */
+  font-family: monospace;
+  font-size: 15px;
+  color:white;
+  padding: 17px;
+  text-align: center;
+
+}
+
+a {
+  color: grey;
+  padding-top: 5%;
+}
+
+
+.btn:hover {
+  color:#ffb3cc;;
+   transform: scale(2);
+}
+
+
+header {
+  background-image:url;
+  background-image: cover;
+  background-position:right top;
+  background-attachment: fixed;
+  text-align: right;
+  background-size:cover;
+  width: 100%;
+  height: 100%;
+  }
+
+ul {
+  font-family: 'Cabin Sketch', cursive;
+  list-style: none;
+  background:white; opacity:0.5;
+  padding:10px;
+  text-align: center;
+  }
+
+li{
+  display:inline;
+  padding: 0px 20px 0px 20px;
+  }
+
+  .jumbotron{
+    background-color:white;
+    padding-top: 1.4%;
+    padding-bottom: 1.5%;
+  }
+
+  .blacktext{
+    color:#ffb3cc;
+    padding-top:200px;
+    font-size:60px;
+    font-family: 'Cabin Sketch', cursive;
+   }
+
+   .middle-button {
+     padding: 0% 5% 0% 5%;
+
+   }
+
+   .fab {
+     font-size:35px;
+   }
+
+   .fas {
+     font-size:35px;
+   }
+
+   .linkedin-icon:hover {
+     color:#3399ff;
+     transform: scale(1.5);
+   }
+   .phone-icon {
+     padding: 0% 5% 0% 5%;
+
+   }
+   .phone-icon:hover {
+     color: #baffc9;
+     transform: scale(1.5);
+
+   }
+   .mail-icon:hover {
+     color: #ffb3ba;
+     transform: scale(1.5);
+   }
+
+   .btn-type {
+     height: 50px;
+     width:100px;
+   }
+
+
+
+.fade-image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.fade-content {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.fade-container:hover .fade-image {
+  opacity: 0.3;
+}
+
+.fade-container:hover .fade-content {
+  opacity: 1;
+}
+
+.text {
+  background-color: #ffcc33;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  border-radius: 25px;
+
+}
+
+.fade {
+   color: white;
+ }
